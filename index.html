@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>HAWA DEMBA KEITA</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/photo.jpg" alt="Ma photo" class="profile-pic">
+        <button class="download-btn" onclick="downloadCV()">📄 Télécharger mon CV</button>
+    </header>
+
+    <section id="home">
+        <h2>Bienvenue sur mon Portfolio</h2>
+        <p>Découvrez mes projets, compétences et expériences en informatique.</p>
+    </section>
+
+    <section id="about">
+        <h2>À Propos de Moi</h2>
+        <p>Je m'appelle Hawa Demba Keita, étudiant en Licence 2 Informatique. Passionné par l'informatique, j'ai des compétences en maintenance des ordinateurs et en langages de programmation comme l'algorithmique, HTML et CSS, Java, JavaScript,React, TypeScript et Python</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projets Réalisés</h2>
+        <article>
+            <h3>Site Web Personnel</h3>
+            <p>Description : Création d'un site web personnel pour présenter mes projets et compétences.</p>
+            <p>Technologies Utilisées : Wordpress</p>
+        </article>
+
+        <div class="download-buttons">
+            <button onclick="downloadProject('html-css')">HTML & CSS</button>
+            <button onclick="downloadProject('javascript')">JavaScript</button>
+            <button onclick="downloadProject('php')">PHP</button>
+            <button onclick="downloadProject('c')">Langage C</button>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences Techniques</h2>
+        <ul>
+            <li>Maintenance des ordinateurs</li>
+            <li>Langages de Programmation : Algorithmique, HTML, CSS</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Expérience Professionnelle</h2>
+        <article>
+            <h3>Stagiaire en Informatique</h3>
+            <p>Durée : Un mois</p>
+            <p>Description : Stage de formation en maintenance des ordinateurs et initiation aux langages de programmation.</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:772493760aliciakeita@gmail.com">772493760aliciakeita@gmail.com</a></p>
+        <p>Téléphone : 772493760</p>
+    </section>
+
+    <!-- Section Réseaux Sociaux -->
+    <section id="social">
+        <h2>Suivez-moi sur les Réseaux Sociaux</h2>
+        <div class="social-icons">
+            <a href="https://wa.me/772493760" target="_blank"><img src="images/whatsapp.jpg" alt="WhatsApp"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.jpg" alt="Facebook"></a>
+            <a href="https://t.me/" target="_blank"><img src="images/telegram.jpg" alt="Telegram"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="images/tiktok.jpg" alt="TikTok"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.jpg" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Portfolio.</p>
+    </footer>
+
+</body>
+</html>
